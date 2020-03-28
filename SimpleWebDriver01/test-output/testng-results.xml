@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite2" duration-ms="32069" started-at="2020-03-27T18:25:07Z" finished-at="2020-03-27T18:25:39Z">
+  <suite name="SuiteDemo" duration-ms="17083" started-at="2020-03-28T18:11:31Z" finished-at="2020-03-28T18:11:48Z">
     <groups>
     </groups>
-    <test name="Test2" duration-ms="32069" started-at="2020-03-27T18:25:07Z" finished-at="2020-03-27T18:25:39Z">
+    <test name="Demo01Test" duration-ms="17083" started-at="2020-03-28T18:11:31Z" finished-at="2020-03-28T18:11:48Z">
       <class name="test.java.TestDemo">
-        <test-method status="PASS" signature="Testdemo001()[pri:0, instance:test.java.TestDemo@40e6dfe1]" name="Testdemo001" duration-ms="15315" started-at="2020-03-27T18:25:07Z" finished-at="2020-03-27T18:25:22Z">
+        <test-method status="PASS" signature="Testdemo001()[pri:0, instance:test.java.TestDemo@40e6dfe1]" name="Testdemo001" duration-ms="15288" started-at="2020-03-28T18:11:31Z" finished-at="2020-03-28T18:11:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testdemo001 -->
-        <test-method status="PASS" signature="teardownall()[pri:0, instance:test.java.TestDemo@40e6dfe1]" name="teardownall" is-config="true" duration-ms="1133" started-at="2020-03-27T18:25:22Z" finished-at="2020-03-27T18:25:23Z">
+        <test-method status="PASS" signature="Testdemo003()[pri:0, instance:test.java.TestDemo@40e6dfe1]" name="Testdemo003" duration-ms="17023" started-at="2020-03-28T18:11:31Z" finished-at="2020-03-28T18:11:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardownall -->
-        <test-method status="PASS" signature="Testdemo002()[pri:0, instance:test.java.TestDemo@40e6dfe1]" name="Testdemo002" duration-ms="14964" started-at="2020-03-27T18:25:23Z" finished-at="2020-03-27T18:25:38Z">
+        </test-method> <!-- Testdemo003 -->
+        <test-method status="PASS" signature="Testdemo002()[pri:0, instance:test.java.TestDemo@40e6dfe1]" name="Testdemo002" duration-ms="14009" started-at="2020-03-28T18:11:31Z" finished-at="2020-03-28T18:11:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testdemo002 -->
-        <test-method status="PASS" signature="teardownall()[pri:0, instance:test.java.TestDemo@40e6dfe1]" name="teardownall" is-config="true" duration-ms="609" started-at="2020-03-27T18:25:38Z" finished-at="2020-03-27T18:25:39Z">
+        <test-method status="PASS" signature="teardownall()[pri:0, instance:test.java.TestDemo@40e6dfe1]" name="teardownall" is-config="true" duration-ms="1020" started-at="2020-03-28T18:11:45Z" finished-at="2020-03-28T18:11:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownall -->
+        <test-method status="PASS" signature="teardownall()[pri:0, instance:test.java.TestDemo@40e6dfe1]" name="teardownall" is-config="true" duration-ms="0" started-at="2020-03-28T18:11:46Z" finished-at="2020-03-28T18:11:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownall -->
+        <test-method status="PASS" signature="teardownall()[pri:0, instance:test.java.TestDemo@40e6dfe1]" name="teardownall" is-config="true" duration-ms="1" started-at="2020-03-28T18:11:48Z" finished-at="2020-03-28T18:11:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownall -->
       </class> <!-- test.java.TestDemo -->
-    </test> <!-- Test2 -->
-  </suite> <!-- Suite2 -->
+    </test> <!-- Demo01Test -->
+  </suite> <!-- SuiteDemo -->
 </testng-results>

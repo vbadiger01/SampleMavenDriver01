@@ -33,6 +33,18 @@ public class TestDemo {
 		
 	}
 	
+	@Test
+	public void Testdemo003() throws Exception {
+		System.out.println("In method 2"+Thread.currentThread());
+		
+		System.setProperty("webdriver.ie.driver", "E:\\Chrome Downloads\\SeleniumFiles\\drivers\\IEDriverServer.exe");
+		driver= new InternetExplorerDriver();
+		
+		driver.get("http://facebook.com");
+		Thread.sleep(5000);	
+		
+	}
+	
 	@AfterMethod
 	public void teardownall()
 	{
